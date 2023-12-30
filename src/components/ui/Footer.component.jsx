@@ -2,7 +2,10 @@ import React from 'react';
 
 const FooterComponent = () => {
     return (
-        <h4>footer</h4>
+        <footer className='footer'>
+            <span>CryotoRadar.</span>
+            <span className='d-none d-md-inline ms-1'>All rights reserved.</span>
+        </footer>
     )
 }
 

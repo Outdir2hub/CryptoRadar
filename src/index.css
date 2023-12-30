@@ -9,8 +9,25 @@
   font-size: 1.6rem;
   color: orange;
 }
+
 .navbar-logo-text {
   font-size: 1.2rem;
   font-weight: bold;
   color: orange;
 } 
+
+.wrapper {
+  background-color: #f8f9fa;
+  /* navbar height = 56px */
+  /* footer height = 40px */
+  min-height:  calc(100vh - 56px - 40px);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  background-color: #646464;
+  height: 40px;
+}
