@@ -9,7 +9,7 @@ const ContactUsPage = () => {
                     <h3>Contact us</h3>
                 </div>
             </div>
-            <div className="row align-items-center">
+            <div className="row">
                 <div className="col-md-6 pt-3">
                     <div className="mb-3">
                         <label className="form-label">Your Name:</label>
@@ -17,7 +17,7 @@ const ContactUsPage = () => {
                     </div>
                     <div className="mb-3">
                         <label className="form-label">Your Message:</label>
-                        <input type="text" className="form-control" placeholder="Please type your message." />
+                        <textarea class="form-control" type="text" id="textAreaExample1" rows="5" placeholder="Please type your message."></textarea>
                     </div>
                     <button className="btn btn-outline-primary ml-2">Send</button>
                 </div>

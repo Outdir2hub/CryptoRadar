@@ -9,10 +9,9 @@ const AboutUsPage = () => {
                     <h3>About us</h3>
                 </div>
             </div>
-            <div className="row align-items-center">
+            <div className="row">
                 <div className="col-md-6 pt-3">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, in. Voluptatum, enim neque modi autem ex delectus tenetur, eum blanditiis necessitatibus unde repellendus adipisci maxime, natus ratione. Facilis nostrum expedita impedit autem officia dolorem consequuntur, sapiente iusto consequatur veniam eligendi in fugit commodi quo molestias libero? Quis qui, nisi temporibus et consequuntur libero. Culpa unde vero explicabo numquam iure. Obcaecati officia ab mollitia nesciunt amet aspernatur, consequatur enim consequuntur architecto velit, repellendus, laborum delectus reiciendis.
-                </div>
+                    We are a team of crypto enthusiasts who want to share our passion and knowledge with the world. Our site provides you with the latest and most accurate information on various cryptocurrencies, such as their prices, market caps, and trends. Whether you are a beginner or an expert, you will find something useful and interesting on our site. Join us today and discover the exciting world of crypto!</div>
                 <div className="col-md-6 text-center pt-3">
                     <img className="img-fluid" src={aboutImg} alt="about-us" />
                 </div>

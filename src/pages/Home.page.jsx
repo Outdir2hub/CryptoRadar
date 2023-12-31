@@ -29,6 +29,7 @@ const HomePage = () => {
                     <h1>CryptoRadar</h1>
                     <h4>A place to manage all of your trade informations and actions</h4>
                     <h4>Do not forget to always using asset and risk managemant!</h4>
+                    <br />
                 </div>
             </div>
             <div className="row">
