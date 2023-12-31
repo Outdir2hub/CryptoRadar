@@ -29,6 +29,11 @@ const HomePage = () => {
                     <h4>Do not forget to always using asset and risk managemant!</h4>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-12">
+                    {loading ? <SpinnerComponent /> : error !== "" ? <h1>{error}</h1> : <h1>Data is ready</h1>}
+                </div>
+            </div>
         </div>
     );
 };
