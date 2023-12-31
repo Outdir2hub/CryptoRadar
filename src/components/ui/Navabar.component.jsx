@@ -28,7 +28,7 @@ const NavabarComponent = () => {
                             <Link className="nav-link" to="/faq">FAQ</Link>
                         </li>
                         <li className="nav-item" onClick={toggleMenu}>
-                            <Link className="nav-link" to="/about-us">about us</Link>
+                            <Link className="nav-link" to="/about-us">About us</Link>
                         </li>
                         <li className="nav-item" onClick={toggleMenu}>
                             <Link className="nav-link" to="/contact-us">contact us</Link>
