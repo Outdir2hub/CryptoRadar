@@ -20,7 +20,7 @@
   background-color: #f8f9fa;
   /* navbar height = 56px */
   /* footer height = 40px */
-  min-height:  calc(100vh - 56px - 40px);
+  min-height:  calc(100vh - 56.8px - 40px);
 }
 
 .footer {

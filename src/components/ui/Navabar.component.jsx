@@ -5,7 +5,9 @@ import { FaCoins } from 'react-icons/fa'
 const NavabarComponent = () => {
     const btnToggleRef = useRef();
     const toggleMenu = () => {
-        btnToggleRef.current.click();
+        if(window.innerWidth < 992) {
+            btnToggleRef.current.click();
+        }
     }
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
